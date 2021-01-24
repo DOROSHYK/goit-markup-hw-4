@@ -139,12 +139,25 @@ ul {
   color: var(--color-forces-color);
 }
 
+/* HERO */
+
 .hero {
   background-color: var(--footer-background-color);
   text-align: center;
 
   padding-bottom: 94px;
   margin-top: 0;
+
+  min-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/hero/hero.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero .hero-title {
@@ -199,6 +212,24 @@ ul {
   line-height: 1.7;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.advantages-item::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  /* outline: 1px solid red; */
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.advantages-item::before {
+  background-image: url(../img/icon/antenna.svg);
 }
 
 /* our work and team*/
