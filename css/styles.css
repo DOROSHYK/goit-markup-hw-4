@@ -139,6 +139,33 @@ ul {
   color: var(--color-forces-color);
 }
 
+.icon-mail::before {
+  content: '';
+  display: inline-flex;
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  position: relative;
+  background-image: url(../img/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  outline: 1px solid red;
+}
+
+.icon-tel::before {
+  content: '';
+  display: inline-flex;
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+
+  position: relative;
+  background-image: url(../img/icon/tell.svg);
+  /* outline: 1px solid red; */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* HERO */
 
 .hero {
@@ -228,8 +255,20 @@ ul {
   background-position: center;
 }
 
-.advantages-item::before {
+.icon-antena::before {
   background-image: url(../img/icon/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../img/icon/clock.svg);
+}
+
+.icon-display::before {
+  background-image: url(../img/icon/display.svg);
+}
+
+.icon-astronavt::before {
+  background-image: url(../img/icon/astronaut.svg);
 }
 
 /* our work and team*/
@@ -327,12 +366,95 @@ ul {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 30px;
+
   padding-top: 10px;
 }
 
 .our-team .team-cart {
   padding-bottom: 30px;
+}
+
+.social {
+  padding-left: 0;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+.social .social-link {
+  display: inline-flex;
+  content: '';
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  outline: 1px solid red;
+}
+
+.instagram {
+  background-image: url(../img/icon-social/instagram.svg);
+}
+
+.twiter {
+  background-image: url(../img/icon-social/twiter.svg);
+}
+
+.facebook {
+  background-image: url(../img/icon-social/faceb.svg);
+}
+
+.linkedin {
+  background-image: url(../img/icon-social/in.svg);
+}
+
+.social-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* CLIENTS */
+
+.clients .client-item {
+  content: '';
+  width: 170px;
+  height: 90px;
+
+  flex-wrap: wrap;
+
+  margin-top: 50px;
+  background-size: contain;
+}
+
+.clients {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: inline-flex;
+}
+
+.clients .client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.one-client {
+  background-image: url(../img/clients/client\ one.svg);
+}
+
+.two-client {
+  background-image: url(../img/clients/client\ two.svg);
+}
+
+.three-client {
+  background-image: url(../img/clients/client\ three.svg);
+}
+
+.four-client {
+  background-image: url(../img/clients/client\ four.svg);
+}
+
+.five-client {
+  background-image: url(../img/clients/client\ five.svg);
+}
+
+.six-client {
+  background-image: url(../img/clients/client\ six.svg);
 }
 
 /*portfolio navigate*/
