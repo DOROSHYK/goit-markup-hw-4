@@ -181,6 +181,7 @@ ul {
 .item .link {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* HERO */
