@@ -32,7 +32,6 @@ ul {
 
 .header-container {
   border-bottom: 1px solid #ececec;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-nav {
@@ -116,7 +115,7 @@ ul {
 
 .site-nav {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-top: 0;
@@ -193,8 +192,8 @@ ul {
   padding-bottom: 94px;
   margin-top: 0;
 
-  min-width: 1600px;
-  min-height: 600px;
+  max-width: 1600px;
+  max-height: 600px;
   margin-left: auto;
   margin-right: auto;
 
@@ -533,6 +532,8 @@ ul {
 .navigation .nav-title:focus {
   color: var(--white-bg-color);
   background-color: var(--color-forces-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .navigation .nav-title {
@@ -548,8 +549,6 @@ ul {
   padding: 6px 22px;
   background-color: var(--our-team);
   border: transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .navigation .navigation-page:not(:last-child) {
@@ -709,6 +708,12 @@ footer .link {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.social-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
 
 .webstydio-link:hover,
